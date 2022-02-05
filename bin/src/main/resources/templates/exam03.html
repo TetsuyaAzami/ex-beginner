@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form th:action="@{/ex03/input-products}" method="post">
+		<label for="product1">商品1：</label>
+		<input type="text" id="product1" name="product1"><br>
+		<label for="product2">商品2：</label>
+		<input type="text" id="product2" name="product2"><br>
+		<label for="product3">商品3：</label>
+		<input type="text" id="product3" name="product3"><br>
+		<button>購入</button>
+	</form>
+</body>
+</html>

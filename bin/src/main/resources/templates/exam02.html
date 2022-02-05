@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<p>数字を入れてください</p>
+	<form th:action="@{/ex02/input-session}" method="post">
+	<input type="text" id="num1" name="num1">
+	+
+	<input type="text" id="num2" name="num2">
+	=<br>
+	<button>足し算をする</button>
+	</form>
+</body>
+</html>
